@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     return res.status(200).json({
       frames: [
         {
-          image: "https://your-image-link-here",
+          image: "https://raw.githubusercontent.com/Eccentrichealerbuilds/Kits/refs/heads/main/Nornal%20candies%20kit/compressed_1746409789139.png",
           post_url: "https://monsurf.vercel.app/",
           buttons: [{ label: "Next Recruit" }],
         },
@@ -18,8 +18,8 @@ export default async function handler(req, res) {
   res.status(200).json({
     frames: [
       {
-        image: "https://your-image-link-here",
-        post_url: "https://your-vercel-url.vercel.app/api/frame",
+        image: "https://raw.githubusercontent.com/Eccentrichealerbuilds/Kits/refs/heads/main/Nornal%20candies%20kit/compressed_1746409789139.png",
+        post_url: "https://monsurf.vercel.app/",
         buttons: [{ label: "Join Ponzi" }],
       },
     ],
